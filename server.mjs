@@ -7,7 +7,7 @@ import projects from "./routes/projects.mjs";
 const PORT = process.env.PORT || 5050;
 const app = express();
 const corsOptions = {
-  origin: ["https://olfflo.com","http://localhost:3000"]
+  origin: ["https://olfflo.com", "https://olfflo.com/signUp", "https://olfflo.com/login","http://localhost:3000"]
 }
 
 app.use(cors(corsOptions));
